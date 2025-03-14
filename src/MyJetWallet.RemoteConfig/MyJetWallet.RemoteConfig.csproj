@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
 	<RepositoryUrl>https://github.com/MyJetWallet/MyJetWallet.RemoteConfig</RepositoryUrl>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MyJetWallet.Sdk.NoSql" Version="2.2.11" />
+      <PackageReference Include="MyJetWallet.Sdk.NoSql" Version="2.3.0" />
     </ItemGroup>
 
 </Project>
